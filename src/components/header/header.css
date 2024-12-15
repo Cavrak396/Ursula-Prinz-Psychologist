@@ -2,6 +2,7 @@
     background-color: rgba(211, 211, 211, 0.3);
     position: relative;
     z-index: 10;
+    border-bottom: rgba(0, 0, 0, 1) 1px solid;
 }
 
 .header__line {
@@ -11,19 +12,26 @@
 }
 
 .header__logo {
-    max-width: 70px;
-    max-height: 70px;
-    flex: 1 1 70px;
+    max-width: 90px;
+    max-height: 90px;
+    flex: 1 1 90px;
 }
 
 .navigation__list {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
 }
 
-.navigation__link {
+.navigation__list-link {
     display: block;
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
+    color: rgba(74, 144, 226, 1);
+}
+
+.active-link {
+    font-weight: 700;
+    border-bottom: solid 1px rgba(74, 144, 226, 1);
+    padding-bottom: 5px;
 }
