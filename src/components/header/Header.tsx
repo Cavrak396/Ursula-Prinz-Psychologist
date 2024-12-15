@@ -1,4 +1,3 @@
-import Button from "../reusable/button/Button";
 import Logo from "../reusable/logo/Logo";
 import "./header.css";
 import HeaderNavigation from "./HeaderNavigation";
@@ -10,7 +9,6 @@ function Header() {
                 <div className="header__line">
                     <Logo uniqueClass="header__logo" />
                     <HeaderNavigation />
-                    <Button className="header__button" type="button"> Search Programs </Button>
                 </div>
             </div>
         </div>
