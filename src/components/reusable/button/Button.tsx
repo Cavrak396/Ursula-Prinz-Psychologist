@@ -1,8 +1,9 @@
 import { ButtonType } from "./buttonTypes";
+import "./button.css";
 
-function Button({ type, uniqueClass, children }: ButtonType) {
+function Button({ type, className, children }: ButtonType) {
     return (
-        <button type={type} className={uniqueClass}> {children} </button>
+        <button type={type} className={className}> {children} </button>
     )
 }
 
