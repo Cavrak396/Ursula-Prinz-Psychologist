@@ -10,7 +10,7 @@ function Header() {
                 <div className="header__line">
                     <Logo uniqueClass="header__logo" />
                     <HeaderNavigation />
-                    <Button uniqueClass="header__button" type="button"> Search Programs </Button>
+                    <Button className="header__button" type="button"> Search Programs </Button>
                 </div>
             </div>
         </div>

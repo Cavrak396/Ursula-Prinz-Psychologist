@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export interface ButtonType {
-    uniqueClass: string;
+    className: string;
     type: "button" | "submit";
     children: ReactNode
 }
