@@ -1,0 +1,30 @@
+.testimonials {
+  padding: 40px 0;
+}
+
+.testimonials__list {
+  text-align: center;
+}
+
+.testimonials__list-item {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 15px;
+  color: rgba(169, 169, 169, 1);
+  line-height: 25px;
+}
+
+/* rgba(245, 245, 220, 1); */
+
+@media (max-width: 975px) {
+  .testimonials__list-item {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials__list-item {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
