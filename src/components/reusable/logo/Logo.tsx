@@ -1,4 +1,4 @@
-import LogoImage from "../../../assets/images/logo.png";
+import LogoImage from "../../../assets/images/header/logo.png";
 import { LogoType } from "./logoTypes";
 
 function Logo({ uniqueClass }: LogoType) {

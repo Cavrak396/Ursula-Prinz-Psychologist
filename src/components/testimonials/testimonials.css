@@ -14,8 +14,6 @@
   line-height: 25px;
 }
 
-/* rgba(245, 245, 220, 1); */
-
 @media (max-width: 975px) {
   .testimonials__list-item {
     font-size: 19px;
