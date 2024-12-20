@@ -1,3 +1,3 @@
 export interface LogoType {
-    uniqueClass: string;
+    className: string;
 }

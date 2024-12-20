@@ -5,6 +5,6 @@ export interface LinksTypes {
 
 export interface LinkType {
     link: LinksTypes;
-    isActive: number;
-    setIsActive: (id: number) => void;
+    isActive?: number;
+    setIsActive?: (id: number) => void;
 }
