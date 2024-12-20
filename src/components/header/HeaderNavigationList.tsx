@@ -1,6 +1,6 @@
 import { useState } from "react";
 import HeaderNavigationItem from "./HeaderNavigationItem";
-import { navigationLinks } from "./utils/headerUtils";
+import { navigationLinks } from "../navigation/navigationUtils";
 
 function HeaderNavigationList() {
     const [isActive, setIsActive] = useState<number>(1)

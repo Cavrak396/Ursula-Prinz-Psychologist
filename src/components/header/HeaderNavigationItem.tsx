@@ -1,4 +1,4 @@
-import { LinkType } from "./types/headerTypes";
+import { LinkType } from "../navigation/navigationTypes";
 
 function HeaderNavigationItem({ link, isActive, setIsActive }: LinkType) {
     return (

@@ -7,7 +7,7 @@ function Header() {
         <div className="header">
             <div className="wrap">
                 <div className="header__line">
-                    <Logo uniqueClass="header__logo" />
+                    <Logo className="header__logo" />
                     <HeaderNavigation />
                 </div>
             </div>
