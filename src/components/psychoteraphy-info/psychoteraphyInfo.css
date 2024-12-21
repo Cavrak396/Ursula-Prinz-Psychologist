@@ -1,0 +1,109 @@
+.pshychoteraphy__title {
+  font-size: 35px;
+  max-width: 368px;
+  margin-left: 100px;
+  line-height: 40px;
+}
+
+.pshychoteraphy__title-decoration {
+  padding-left: 30px;
+}
+
+.psychoteraphy__info-row-line {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-bottom: 40px;
+}
+
+.psychoteraphy__info-row-line--modified {
+  flex-direction: row;
+}
+
+.psychoteraphy__info-row--modified {
+  background-color: rgba(245, 245, 220, 0.6);
+}
+
+.psychoteraphy__info-text,
+.psychoteraphy__info-photo {
+  max-width: 50%;
+  flex: 1 1 50%;
+}
+
+.psychoteraphy__info-photo--modified {
+  text-align: center;
+}
+
+.psychoteraphy__info-lines {
+  line-height: 23px;
+  max-width: 630px;
+}
+
+.psychoteraphy__info-img {
+  max-width: 700px;
+  max-height: 700px;
+  margin-top: -50px;
+}
+
+@media screen and (max-width: 975px) {
+  .pshychoteraphy__title {
+    font-size: 30px;
+    max-width: 368px;
+    margin: 0 auto 15px auto;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .pshychoteraphy__title-decoration {
+    padding-left: 0;
+  }
+
+  .psychoteraphy__info-row-line {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  .psychoteraphy__info-text,
+  .psychoteraphy__info-photo {
+    max-width: 100%;
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+
+  .psychoteraphy__info-lines {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .psychoteraphy__info-img {
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pshychoteraphy__title {
+    font-size: 24px;
+    max-width: 320px;
+    margin: 0 auto 7px auto;
+    line-height: 29px;
+  }
+
+  .psychoteraphy__info-text,
+  .psychoteraphy__info-photo {
+    margin-bottom: 0;
+  }
+
+  .psychoteraphy__info-lines {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .psychoteraphy__info-img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
