@@ -1,4 +1,4 @@
-import { navigationLinks } from "../navigation/navigationUtils";
+import { navigationLinks } from "../navigation/utils/navigationUtils";
 import FooterNavigationItem from "./FooterNavigationItem";
 
 function FooterNavigationList() {

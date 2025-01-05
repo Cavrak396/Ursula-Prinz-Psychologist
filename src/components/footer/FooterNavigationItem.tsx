@@ -1,4 +1,4 @@
-import { LinkType } from "../navigation/navigationTypes";
+import { LinkType } from "../navigation/types/navigationTypes";
 
 function FooterNavigationItem({ link }: LinkType) {
   return (
