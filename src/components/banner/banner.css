@@ -2,8 +2,6 @@
   position: relative;
   background-image: url("../../assets//images/banner/ursula-prinz.png");
   background-size: cover;
-  background-position: 0 -240px;
-  width: 100%;
   padding: 250px 0;
 }
 
@@ -21,31 +19,30 @@
 .banner__text-holder {
   position: relative;
   z-index: 10;
+  text-align: right;
 }
 
 .banner__text {
   color: rgba(255, 255, 255, 1);
   max-width: 555px;
-  margin-bottom: 15px;
+  margin: 0 0 15px auto;
 }
 
 .banner__title {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 2.8px;
   margin-bottom: 10px;
-  line-height: 50px;
+  line-height: 75px;
+}
+
+.banner__tittle-decoration {
+  font-weight: 700;
+  display: block;
 }
 
 .banner__lines {
   font-size: 15px;
   line-height: 20px;
-}
-
-.banner__button {
-  padding: 10px;
-  background-color: rgba(74, 144, 226, 1);
-  color: rgba(255, 255, 255, 1);
-  font-size: 13px;
 }
 
 @media (max-width: 768px) {
@@ -55,11 +52,12 @@
 
   .banner__text {
     max-width: 260px;
+    text-align: left;
+    margin: 0;
   }
 
   .banner__title {
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 26px;
     margin-bottom: 5px;
     line-height: 33px;
   }
@@ -67,9 +65,5 @@
   .banner__lines {
     font-size: 12px;
     line-height: 18px;
-  }
-
-  .banner__button {
-    font-size: 11px;
   }
 }
