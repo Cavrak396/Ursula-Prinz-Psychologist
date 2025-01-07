@@ -1,5 +1,5 @@
 .testimonials {
-  padding: 40px 0;
+  padding: 40px 0 120px 0;
 }
 
 .testimonials__list {
@@ -15,6 +15,10 @@
 }
 
 @media (max-width: 975px) {
+  .testimonials {
+    padding: 40px 0 20px 0;
+  }
+
   .testimonials__list-item {
     font-size: 19px;
   }

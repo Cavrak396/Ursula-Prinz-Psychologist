@@ -1,4 +1,5 @@
 import LazyImage from "../reusable/lazyLoadingImage/LazyImage";
+import PsychoteraphyRowTexts from "./PsychoteraphyRowTexts";
 import {
   GetModifiedClass,
   PsychoteraphyRowProps,
@@ -24,9 +25,7 @@ function PsychoteraphyRow({ row }: PsychoteraphyRowProps) {
             "psychoteraphy__info-row-line"
           )}`}
         >
-          <div className="psychoteraphy__info-text">
-            <p className="psychoteraphy__info-lines">{row.text}</p>
-          </div>
+          <PsychoteraphyRowTexts row={row} />
           <div
             className={`psychoteraphy__info-photo ${getModifiedClass(
               isModified,
@@ -36,7 +35,7 @@ function PsychoteraphyRow({ row }: PsychoteraphyRowProps) {
             <LazyImage
               src={row.img}
               className="psychoteraphy__info-img"
-              alt={`Psychoteraphy image for ${row.text}`}
+              alt={`Psychoteraphy image`}
             />
           </div>
         </div>
