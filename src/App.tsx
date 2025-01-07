@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Testimonials from "./components/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
 import PsychoteraphyInfo from "./components/psychoteraphy-info/PsychoteraphyInfo";
+import Offers from "./components/offers/Offers";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <Testimonials />
       <PsychoteraphyInfo />
+      <Offers />
       <Footer />
     </>
   );
