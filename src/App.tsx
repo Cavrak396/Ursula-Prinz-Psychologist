@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer";
 import PsychoteraphyInfo from "./components/psychoteraphy-info/PsychoteraphyInfo";
 import Offers from "./components/offers/Offers";
 import Focus from "./components/focus/Focus";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <PsychoteraphyInfo />
       <Offers />
       <Focus />
+      <About />
       <Footer />
     </>
   );
