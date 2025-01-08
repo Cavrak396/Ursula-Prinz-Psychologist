@@ -1,16 +1,10 @@
-import Title from "../reusable/titles/TItle";
-import { aboutUtils } from "./utils/aboutUtils";
+import { AboutTypesItem } from "./types/aboutTypes";
 
-function AboutText() {
+function AboutText({ item }: AboutTypesItem) {
   return (
-    <div className="about__text">
-        <Title className="about__title">Über mich</Title>
-      {aboutUtils.map((item) => (
-        <p key={item.id} className="about__lines">
-          {item.text}
-        </p>
-      ))}
-    </div>
+    <p className="about__lines">
+      {item.text}
+    </p>
   );
 }
 

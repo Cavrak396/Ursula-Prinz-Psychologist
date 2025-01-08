@@ -1,10 +1,10 @@
 import AboutPhoto from "./AboutPhoto";
-import AboutText from "./AboutText";
+import AboutRowText from "./AboutRowText";
 
 function AboutRow() {
   return (
     <div className="about__row">
-      <AboutText />
+      <AboutRowText />
       <AboutPhoto />
     </div>
   );
