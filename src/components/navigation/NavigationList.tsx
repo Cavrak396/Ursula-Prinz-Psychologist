@@ -1,24 +1,29 @@
-import { useState } from "react";
+import { useState, forwardRef } from "react";
 import NavigationItem from "./NavigationItem";
 import { navigationLinks } from "./utils/navigationUtils";
+import { NavigationListProps } from "./types/navigationTypes";
 
-function NavigationList() {
-  const [isActive, setIsActive] = useState<number>(1);
+const NavigationList = forwardRef<HTMLUListElement, NavigationListProps>(
+  ({ isActiveMenu }: NavigationListProps, ref) => {
+    const [isActive, setIsActive] = useState<number>(1);
 
-  return (
-    <ul className="navigation__list">
-      {navigationLinks.map((link) => {
-        return (
+    return (
+      <ul
+        ref={ref}
+        role="menu"
+        className={`navigation__list ${isActiveMenu && "activated-menu"}`}
+      >
+        {navigationLinks.map((link) => (
           <NavigationItem
             key={link.id}
             link={link}
             isActive={isActive}
             setIsActive={setIsActive}
           />
-        );
-      })}
-    </ul>
-  );
-}
+        ))}
+      </ul>
+    );
+  }
+);
 
 export default NavigationList;

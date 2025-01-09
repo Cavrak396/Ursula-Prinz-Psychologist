@@ -158,6 +158,7 @@ table {
 
 body {
   font-family: "Open Sans";
+  overflow-x: hidden;
 }
 
 .wrap {
