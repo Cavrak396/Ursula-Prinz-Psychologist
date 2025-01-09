@@ -1,6 +1,6 @@
-import { LinkType } from "./types/navigationTypes";
+import { NavigationItemProps } from "./types/navigationTypes";
 
-function NavigationItem({ link, isActive, setIsActive }: LinkType) {
+function NavigationItem({ link, isActive, setIsActive }: NavigationItemProps) {
   return (
     <li className="navigation__list-item">
       <a
