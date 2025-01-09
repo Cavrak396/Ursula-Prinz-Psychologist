@@ -1,29 +1,29 @@
 .footer {
   text-align: center;
-  background-color: rgba(245, 245, 220, 0.6);
 }
 
 .footer__holder {
-  border-top: rgba(0, 0, 0, 0.6) 1px solid;
-  border-bottom: rgba(0, 0, 0, 0.6) 1px solid;
+  border-top: rgba(0, 0, 0, 0.3) 1px solid;
+  border-bottom: rgba(0, 0, 0, 0.3) 1px solid;
   padding: 20px 0 16px 0;
 }
 
 .footer__logo {
   max-width: 150px;
   max-height: 150px;
+  margin-bottom: 20px;
 }
 
 .footer__navigation-list {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .footer__navigation-link {
   text-decoration: none;
-  color: rgba(74, 144, 226, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 .footer__copyright {
@@ -40,6 +40,7 @@
   .footer__logo {
     max-width: 100px;
     max-height: 100px;
+    margin-bottom: 5px;
   }
 
   .footer__navigation-list {
