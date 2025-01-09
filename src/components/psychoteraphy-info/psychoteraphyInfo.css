@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width: 975px) {
-  .pshychoteraphy__title {
+  .psychoteraphy__title {
     font-size: 30px;
     max-width: 368px;
     margin: 0 auto 15px auto;
@@ -77,6 +77,7 @@
   .psychoteraphy__info-lines {
     font-size: 14px;
     line-height: 21px;
+    margin: 0 auto 20px auto;
   }
 
   .psychoteraphy__info-img {
