@@ -5,7 +5,7 @@ function FooterNavigationList() {
   return (
     <ul className="footer__navigation-list">
       {navigationLinks.map((link) => {
-        return <FooterNavigationItem link={link} />;
+        return <FooterNavigationItem key={link.id} link={link} />;
       })}
     </ul>
   );
