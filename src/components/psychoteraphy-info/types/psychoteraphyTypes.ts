@@ -7,14 +7,20 @@ export interface Row {
   img: string;
 }
 
+export interface GetModifiedClass {
+  (isModified: boolean, baseClass: string): string;
+}
+
 export interface PsychoteraphyRowProps {
   row: Row;
 }
 
-export interface PsychoteraphyRowTextProps {
-  text?: string;
+export interface SharedRowProps {
+  row: Row;
+  getModifiedClass: GetModifiedClass;
+  isModified: boolean;
 }
 
-export interface GetModifiedClass {
-  (isModified: boolean, baseClass: string): string;
+export interface PsychoteraphyRowTextProps {
+  text?: string;
 }

@@ -1,15 +1,18 @@
-import LazyImage from "../reusable/lazyLoadingImage/LazyImage";
+import { useCallback, useMemo } from "react";
 import PsychoteraphyRowTexts from "./PsychoteraphyRowTexts";
 import {
   GetModifiedClass,
   PsychoteraphyRowProps,
 } from "./types/psychoteraphyTypes";
-
-const getModifiedClass: GetModifiedClass = (isModified, baseClass) =>
-  isModified ? `${baseClass}--modified` : "";
+import PsychoteraphyPhoto from "./PsychoteraphyPhoto";
 
 function PsychoteraphyRow({ row }: PsychoteraphyRowProps) {
-  const isModified = row.id % 2 !== 0;
+  const isModified = useMemo(() => row.id % 2 !== 0, [row.id]);
+
+  const getModifiedClass: GetModifiedClass = useCallback(
+    (isModified, baseClass) => (isModified ? `${baseClass}--modified` : ""),
+    []
+  );
 
   return (
     <div
@@ -25,19 +28,16 @@ function PsychoteraphyRow({ row }: PsychoteraphyRowProps) {
             "psychoteraphy__info-row-line"
           )}`}
         >
-          <PsychoteraphyRowTexts row={row} />
-          <div
-            className={`psychoteraphy__info-photo ${getModifiedClass(
-              isModified,
-              "psychoteraphy__info-photo"
-            )}`}
-          >
-            <LazyImage
-              src={row.img}
-              className="psychoteraphy__info-img"
-              alt={`Psychoteraphy image`}
-            />
-          </div>
+          <PsychoteraphyRowTexts
+            row={row}
+            getModifiedClass={getModifiedClass}
+            isModified={isModified}
+          />
+          <PsychoteraphyPhoto
+            row={row}
+            getModifiedClass={getModifiedClass}
+            isModified={isModified}
+          />
         </div>
       </div>
     </div>
