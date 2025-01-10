@@ -20,14 +20,6 @@ function Navigation() {
     };
   }, []);
 
-  useEffect(() => {
-    if (isActiveMenu) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [isActiveMenu]);
-
   return (
     <nav className="navigation">
       <NavigationList ref={listRef} isActiveMenu={isActiveMenu} />
