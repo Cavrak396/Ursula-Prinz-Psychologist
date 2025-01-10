@@ -57,6 +57,7 @@
 .psychoteraphy__info-img {
   max-width: 660px;
   max-height: 830px;
+  width: 100%;
   margin-top: -50px;
 }
 
@@ -67,11 +68,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .psychoteraphy__info-img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
   .psychoteraphy__info-text-holder--modified {
     padding-left: 0;
     padding: 0 15px 0 0;
