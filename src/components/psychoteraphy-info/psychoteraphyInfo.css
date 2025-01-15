@@ -123,6 +123,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .psychoteraphy__info-text-holder--modified {
+    padding: 0;
+  }
+
   .psychoteraphy__title {
     font-size: 24px;
     max-width: 320px;
