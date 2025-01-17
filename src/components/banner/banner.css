@@ -63,8 +63,8 @@
     line-height: 33px;
   }
 
-  .banner__lines {
-    font-size: 12px;
-    line-height: 18px;
+  .banner__title,
+  .banner__tittle-decoration {
+    font-size: 26px;
   }
 }
