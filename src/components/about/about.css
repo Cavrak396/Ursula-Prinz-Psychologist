@@ -9,7 +9,6 @@
 .about__title {
   font-size: 50px;
   text-align: center;
-  padding-bottom: 10px;
   margin-bottom: 30px;
 }
 
@@ -92,7 +91,7 @@
 
   .about__title {
     font-size: 24px;
-    margin: 20px 0 5px 0;
+    margin: 20px 0 13px 0;
   }
 
   .about__lines {
