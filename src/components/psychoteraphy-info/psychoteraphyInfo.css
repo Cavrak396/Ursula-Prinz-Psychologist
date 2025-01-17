@@ -131,13 +131,21 @@
   .psychoteraphy__title {
     font-size: 24px;
     max-width: 320px;
-    margin: 0 auto 7px auto;
+    margin: 0 auto 13px auto;
     line-height: 29px;
   }
 
   .psychoteraphy__info-text,
   .psychoteraphy__info-photo {
     margin-bottom: 0;
+  }
+
+  .psychoteraphy__info-text {
+    padding: 20px 0 0 0;
+  }
+
+  .psychoteraphy__info-photo {
+    padding-bottom: 30px;
   }
 
   .psychoteraphy__info-lines {
