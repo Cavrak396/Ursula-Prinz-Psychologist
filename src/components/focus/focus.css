@@ -12,8 +12,9 @@
   margin: 0 auto;
 }
 
-.focus__introduction {
-  font-size: 23px;
+.focus__introduction,
+.focus__list-item {
+  font-size: 20px;
   margin-bottom: 25px;
 }
 
@@ -29,7 +30,6 @@
 }
 
 .focus__list-item {
-  font-size: 20px;
   margin-bottom: 10px;
   padding-left: 7px;
   line-height: 20px;
