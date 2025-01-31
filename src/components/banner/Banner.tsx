@@ -15,12 +15,7 @@ function Banner({ bgImage, page }: BannerTypes) {
     >
       <div className="wrap">
         <div className="banner__text-holder">
-          {bannerData && (
-            <BannerText
-              boldedWord={bannerData.boldedWord}
-              title={bannerData.title}
-            />
-          )}
+          {bannerData && <BannerText bannerData={bannerData} />}
         </div>
       </div>
     </section>

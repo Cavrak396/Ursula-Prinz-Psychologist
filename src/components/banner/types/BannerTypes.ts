@@ -4,6 +4,8 @@ export interface BannerTypes {
 }
 
 export interface BannerTextTypes {
-    boldedWord: string;
-    title: string;
+    bannerData: {
+        boldedWord: string;
+        title: string;
+    };
 }
