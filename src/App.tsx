@@ -1,25 +1,20 @@
-import "./App.css";
-import Banner from "./components/banner/Banner";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
-import Testimonials from "./components/testimonials/Testimonials";
+import HomePage from "./components/pages/HomePage";
+import AboutPage from "./components/pages/AboutPage";
 import Footer from "./components/footer/Footer";
-import PsychoteraphyInfo from "./components/psychoteraphy-info/PsychoteraphyInfo";
-import Offers from "./components/offers/Offers";
-import Focus from "./components/focus/Focus";
-import About from "./components/about/About";
+import "./App.css";
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <Banner />
-      <Testimonials />
-      <PsychoteraphyInfo />
-      <Offers />
-      <Focus />
-      <About />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
