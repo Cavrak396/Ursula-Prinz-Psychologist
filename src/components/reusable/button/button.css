@@ -1,10 +1,19 @@
 button {
-    background: none;
-    border: none;
+  background: none;
+  border: none;
 }
 
 button:hover {
-    cursor: pointer;
-    transition: 0.4s all ease-in-out;
-    opacity: 0.7;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+  opacity: 0.7;
+}
+
+.button {
+  background-color: rgba(101, 182, 134, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.activated-button {
+  background-color: rgba(61, 142, 104, 1);
 }
