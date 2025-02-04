@@ -8,11 +8,12 @@ function NavigationItem({ link, isActive, setIsActive }: NavigationItemProps) {
     e.preventDefault();
     setIsActive(link.id);
     
-    // Navigate to the route corresponding to the link
     if (link.name === "Über mich") {
       navigate("/about");
+    } else if(link.name === "Process") {
+      navigate("/process")
     } else {
-      navigate("/"); // Default navigation to home
+      navigate("/"); 
     }
   };
 
