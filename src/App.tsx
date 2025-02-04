@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import HomePage from "./components/pages/HomePage";
 import AboutPage from "./components/pages/AboutPage";
 import Footer from "./components/footer/Footer";
+import ProcessPage from "./components/pages/ProcessPage";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/process" element={<ProcessPage />} />
       </Routes>
       <Footer />
     </Router>
