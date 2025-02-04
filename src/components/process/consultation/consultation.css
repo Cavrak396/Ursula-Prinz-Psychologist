@@ -1,0 +1,46 @@
+.consultation {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.consultation__text-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.consultation__text-lines,
+.consultation__scheduling-lines {
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.consultation__scheduling-link {
+  color: rgba(101, 182, 134, 1);
+  font-weight: 600;
+  margin: 0 3px;
+}
+
+@media (max-width: 975px) {
+  .consultation__text-lines,
+  .consultation__scheduling-lines {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .consultation__text-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .consultation__text-lines,
+  .consultation__scheduling-lines {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .consultation__text-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
