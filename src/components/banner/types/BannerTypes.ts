@@ -6,6 +6,6 @@ export interface BannerTypes {
 export interface BannerTextTypes {
     bannerData: {
         boldedWord: string;
-        title: string;
+        title?: string;
     };
 }
