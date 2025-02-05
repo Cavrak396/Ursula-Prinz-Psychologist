@@ -1,0 +1,42 @@
+.cancellation {
+  padding: 24px 0 60px 0;
+}
+
+.cancellation__title {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cancellation__lines {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+@media (max-width: 975px) {
+  .cancellation__title {
+    font-size: 30px;
+  }
+
+  .cancellation__lines {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cancellation {
+    padding: 20px 0;
+  }
+  
+  .cancellation__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .cancellation__lines {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
