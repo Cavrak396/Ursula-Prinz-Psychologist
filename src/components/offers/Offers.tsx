@@ -6,7 +6,7 @@ function Offers() {
   return (
     <section className="offers">
       <div className="wrap">
-        <Title className="offers__title">Angebot</Title>
+        <Title className="offers__title title">Angebot</Title>
         <OffersList />
       </div>
     </section>

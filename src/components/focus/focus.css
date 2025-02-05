@@ -4,7 +4,6 @@
 
 .focus__title {
   text-align: center;
-  font-size: 50px;
   margin-bottom: 50px;
 }
 
@@ -41,7 +40,6 @@
   }
 
   .focus__title {
-    font-size: 43px;
     margin-bottom: 20px;
   }
 
@@ -66,7 +64,6 @@
 
 @media (max-width: 768px) {
   .focus__title {
-    font-size: 36px;
     margin-bottom: 20px;
   }
 
