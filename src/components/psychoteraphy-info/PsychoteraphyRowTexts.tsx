@@ -37,7 +37,7 @@ function PsychoteraphyRowTexts({
         )}`}
       >
         <Title
-          className={`psychoteraphy__title ${getModifiedClass(
+          className={`psychoteraphy__title title ${getModifiedClass(
             isModified,
             "psychoteraphy__title"
           )}`}

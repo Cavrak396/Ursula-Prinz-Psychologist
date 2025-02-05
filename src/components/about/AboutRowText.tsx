@@ -6,7 +6,7 @@ function AboutRowText() {
   return (
     <div className="about__text">
       <div className="about__text-holder">
-        <Title className="about__title">Über mich</Title>
+        <Title className="about__title title">Über mich</Title>
         {aboutUtils.map((item) => (
           <AboutText key={item.id} item={item} />
         ))}

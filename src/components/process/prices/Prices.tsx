@@ -7,7 +7,7 @@ function Prices() {
   return (
     <section className="prices">
       <div className="wrap">
-        <Title className="prices__title">Meine Honorarsätze</Title>
+        <Title className="prices__title title">Meine Honorarsätze</Title>
         <PricesBubles />
         <PricesSpecialOffer />
       </div>

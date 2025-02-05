@@ -6,7 +6,7 @@ function Cancellation() {
   return (
     <section className="cancellation">
       <div className="wrap">
-        <Title className="cancellation__title">Absageregelung</Title>
+        <Title className="cancellation__title title">Absageregelung</Title>
         <CancellationText />
       </div>
     </section>
