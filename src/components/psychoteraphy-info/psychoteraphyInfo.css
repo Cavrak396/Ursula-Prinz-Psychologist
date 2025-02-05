@@ -48,8 +48,6 @@
 }
 
 .psychoteraphy__info-lines {
-  line-height: 28px;
-  font-size: 18px;
   margin-bottom: 25px;
   text-align: justify;
 }
@@ -108,8 +106,6 @@
   }
 
   .psychoteraphy__info-lines {
-    font-size: 14px;
-    line-height: 21px;
     margin: 0 auto 20px auto;
   }
 
@@ -141,11 +137,6 @@
 
   .psychoteraphy__info-photo {
     padding-bottom: 30px;
-  }
-
-  .psychoteraphy__info-lines {
-    font-size: 13px;
-    line-height: 20px;
   }
 
   .psychoteraphy__info-img {

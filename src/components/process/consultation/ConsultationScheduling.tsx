@@ -3,7 +3,7 @@ import { contactDetails } from "./utils/consultationUtils";
 function ConsultationScheduling() {
   return (
     <div className="consultation__scheduling">
-      <p className="consultation__scheduling-lines">
+      <p className="consultation__scheduling-lines classic-text">
         Terminvereinbarung für ein Erstgespräch sind unter
         {contactDetails.map((contact, index) => (
           <span key={index}>

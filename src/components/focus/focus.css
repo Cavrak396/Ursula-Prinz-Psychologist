@@ -11,9 +11,7 @@
   margin: 0 auto;
 }
 
-.focus__introduction,
-.focus__list-item {
-  font-size: 18px;
+.focus__introduction {
   margin-bottom: 25px;
 }
 
@@ -29,9 +27,8 @@
 }
 
 .focus__list-item {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   padding-left: 7px;
-  line-height: 20px;
 }
 
 @media (max-width: 975px) {
@@ -48,15 +45,6 @@
     text-align: left;
   }
 
-  .focus__introduction {
-    line-height: 23px;
-  }
-
-  .focus__list-item,
-  .focus__introduction {
-    font-size: 17px;
-  }
-
   .focus__lists {
     flex-direction: column;
   }
@@ -67,16 +55,11 @@
     margin-bottom: 20px;
   }
 
-  .focus__list-item,
-  .focus__introduction {
-    font-size: 15px;
-  }
-
   .focus__introduction {
     margin-bottom: 20px;
   }
 
   .focus__list-item {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 }

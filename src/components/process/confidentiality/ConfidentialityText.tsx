@@ -5,7 +5,7 @@ function ConfidentialityText({ item }: ConfidentialityPropType) {
   return (
     <div className="confidentiality__text">
       <Title className="confidentiality__title">{item.title}</Title>
-      <p className="confidentiality__lines">{item.text}</p>
+      <p className="confidentiality__lines classic-text">{item.text}</p>
     </div>
   );
 }

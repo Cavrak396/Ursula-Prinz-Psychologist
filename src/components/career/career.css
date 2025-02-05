@@ -24,9 +24,7 @@
 }
 
 .career__text-item {
-  font-size: 18px;
   margin-bottom: 10px;
-  line-height: 25px;
 }
 
 @media (max-width: 975px) {
@@ -35,7 +33,6 @@
   }
 
   .career__text-item {
-    font-size: 17px;
     margin-bottom: 15px;
   }
 }
@@ -55,10 +52,5 @@
 
   .career__text-list {
     min-height: 220px;
-  }
-
-  .career__text-item {
-    font-size: 13px;
-    line-height: 20px;
   }
 }
