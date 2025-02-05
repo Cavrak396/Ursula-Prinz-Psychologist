@@ -8,29 +8,15 @@
 }
 
 .cancellation__lines {
-  font-size: 18px;
-  line-height: 28px;
   text-align: center;
-}
-
-@media (max-width: 975px) {
-  .cancellation__lines {
-    font-size: 14px;
-    line-height: 21px;
-  }
 }
 
 @media (max-width: 768px) {
   .cancellation {
     padding: 20px 0;
   }
-  
+
   .cancellation__title {
     margin-bottom: 10px;
-  }
-
-  .cancellation__lines {
-    font-size: 13px;
-    line-height: 20px;
   }
 }

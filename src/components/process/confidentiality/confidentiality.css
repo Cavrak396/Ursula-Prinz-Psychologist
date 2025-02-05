@@ -33,8 +33,6 @@
 
 .confidentiality__lines {
   text-align: justify;
-  font-size: 18px;
-  line-height: 28px;
   max-width: 660px;
 }
 
@@ -59,11 +57,6 @@
     flex: 1 1 100%;
   }
 
-  .confidentiality__lines {
-    font-size: 14px;
-    line-height: 21px;
-  }
-
   .confidentiality__text:first-child::after {
     top: 100%;
     right: 50%;
@@ -81,10 +74,5 @@
   .confidentiality__title {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-
-  .confidentiality__lines {
-    font-size: 13px;
-    line-height: 20px;
   }
 }

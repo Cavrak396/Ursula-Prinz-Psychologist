@@ -7,35 +7,15 @@
   margin-bottom: 20px;
 }
 
-.consultation__text-lines,
-.consultation__scheduling-lines {
-  line-height: 28px;
-  font-size: 18px;
-}
-
 .consultation__scheduling-link {
   color: rgba(101, 182, 134, 1);
   font-weight: 600;
   margin: 0 3px;
 }
 
-@media (max-width: 975px) {
-  .consultation__text-lines,
-  .consultation__scheduling-lines {
-    font-size: 14px;
-    line-height: 21px;
-  }
-}
-
 @media (max-width: 768px) {
   .consultation {
     padding: 24px 0 30px 0;
-  }
-
-  .consultation__text-lines,
-  .consultation__scheduling-lines {
-    font-size: 13px;
-    line-height: 20px;
   }
 
   .consultation__text-title {
