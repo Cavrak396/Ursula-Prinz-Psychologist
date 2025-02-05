@@ -39,6 +39,10 @@
 }
 
 @media (max-width: 975px) {
+  .confidentiality {
+    padding: 0;
+  }
+
   .confidentiality__title {
     font-size: 30px;
     text-align: center;
