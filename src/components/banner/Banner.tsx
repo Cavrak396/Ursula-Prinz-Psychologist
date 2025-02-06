@@ -5,10 +5,11 @@ import "./banner.css";
 
 function Banner({ bgImage, page }: BannerTypes) {
   const bannerData = bannerContent.find((item) => item.page === page);
+  const bannerClass = page === "Process" ? "banner banner--centered" : "banner";
 
   return (
     <section
-      className="banner"
+      className={bannerClass}
       style={{
         backgroundImage: `url(${bgImage})`,
       }}

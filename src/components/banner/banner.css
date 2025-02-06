@@ -1,9 +1,12 @@
 .banner {
   position: relative;
   background-size: cover;
-  background-position: center;
   padding: 225px 0 250px 0;
   min-height: 715px;
+}
+
+.banner--centered {
+  background-position: center !important;
 }
 
 .banner::after {
