@@ -4,7 +4,6 @@
 
 .confidentiality__text-line {
   display: flex;
-  align-items: center;
   margin: 0 -20px;
 }
 
@@ -49,6 +48,10 @@
 
   .confidentiality__text-line {
     flex-direction: column;
+  }
+
+  .confidentiality__lines {
+    margin: 0 auto;
   }
 
   .confidentiality__text {
