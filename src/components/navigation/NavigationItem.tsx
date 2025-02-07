@@ -1,19 +1,19 @@
 import { useNavigate } from "react-router-dom";
 import { NavigationItemProps } from "./types/navigationTypes";
 
-function NavigationItem({ link, isActive, setIsActive }: NavigationItemProps) {
+function NavigationItem({ item, isActive, setIsActive }: NavigationItemProps) {
   const navigate = useNavigate();
 
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    setIsActive(link.id);
-    
-    if (link.name === "Über mich") {
+    setIsActive?.(item.id);
+
+    if (item.link === "Über mich") {
       navigate("/about");
-    } else if(link.name === "Process") {
-      navigate("/process")
+    } else if (item.link === "Process") {
+      navigate("/process");
     } else {
-      navigate("/"); 
+      navigate("/");
     }
   };
 
@@ -22,9 +22,11 @@ function NavigationItem({ link, isActive, setIsActive }: NavigationItemProps) {
       <a
         onClick={handleClick}
         href="#"
-        className={`navigation__list-link ${isActive === link.id ? "active-link" : ""}`}
+        className={`navigation__list-link ${
+          isActive === item.id ? "active-link" : ""
+        }`}
       >
-        {link.name}
+        {item.link}
       </a>
     </li>
   );

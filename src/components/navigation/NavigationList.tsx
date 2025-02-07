@@ -13,10 +13,10 @@ const NavigationList = forwardRef<HTMLUListElement, NavigationListProps>(
         role="menu"
         className={`navigation__list ${isActiveMenu && "activated-menu"}`}
       >
-        {navigationLinks.map((link) => (
+        {navigationLinks.map((item) => (
           <NavigationItem
-            key={link.id}
-            link={link}
+            key={item.id}
+            item={item}
             isActive={isActive}
             setIsActive={setIsActive}
           />
