@@ -7,6 +7,7 @@ function NavigationItem({ item, isActive, setIsActive }: NavigationItemProps) {
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     setIsActive?.(item.id);
+    sessionStorage.setItem("activeLink", item.id.toString());
 
     if (item.link === "Über mich") {
       navigate("/about");
