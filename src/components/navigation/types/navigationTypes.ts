@@ -1,12 +1,12 @@
 export interface LinksTypes {
     id: number;
-    name: string;
+    link: string;
 }
 
 export interface NavigationItemProps {
-    link: LinksTypes;
-    isActive: number;
-    setIsActive: (id: number) => void;
+    item: LinksTypes;
+    isActive?: number;
+    setIsActive?: (id: number) => void;
 }
 
 export interface NavigationListProps {
