@@ -11,6 +11,7 @@ export interface NavigationItemProps {
 
 export interface NavigationListProps {
     isActiveMenu: boolean;
+    setIsActiveMenu: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export interface NavigationHamburgerProps {
