@@ -1,0 +1,53 @@
+.privacy {
+  padding: 30px 0;
+}
+
+.privacy__holder {
+  max-width: 1200px;
+}
+
+.privacy__info-holder {
+  margin-bottom: 20px;
+}
+
+.privacy__info-text,
+.privacy__server-logs-text,
+.privacy__server-logs-lines,
+.responsible__details-introduction,
+.privacy__server-logs-item {
+  line-height: 23px;
+}
+
+.privacy__info-tag,
+.privacy__server-logs-text {
+  margin-bottom: 10px;
+}
+
+.privacy__server-logs-list {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin: 20px 0;
+}
+
+.privacy__server-logs-item {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .privacy {
+    padding: 20px 0 10px 0;
+  }
+
+  .privacy__info-text,
+  .privacy__server-logs-text,
+  .privacy__server-logs-lines,
+  .responsible__details-introduction,
+  .privacy__server-logs-item {
+    font-size: 13px;
+  }
+
+  .privacy__server-logs-list {
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+}

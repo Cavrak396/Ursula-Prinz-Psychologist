@@ -3,6 +3,11 @@
   line-height: 55px;
 }
 
+.small-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 975px) {
   .title {
     font-size: 30px;

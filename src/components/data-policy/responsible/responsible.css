@@ -1,0 +1,18 @@
+.responsible__details-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.responsible__details {
+  margin-bottom: 20px;
+}
+
+.responsible__details-item {
+  line-height: 22px;
+}
+
+@media (max-width: 768px) {
+  .responsible__details-item {
+    font-size: 13px;
+  }
+}
