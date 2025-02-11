@@ -20,11 +20,11 @@
 
 .about__text {
   margin: 0 auto;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .about__text-holder {
-  max-width: 510px;
+  max-width: 548px;
 }
 
 .about__photo {
@@ -86,6 +86,6 @@
 
   .about__image {
     max-width: 300px;
-    max-height: 300px;
+    max-height: 380px;
   }
 }

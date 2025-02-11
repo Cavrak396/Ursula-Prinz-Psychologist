@@ -34,17 +34,12 @@
   flex: 1 1 50%;
 }
 
-.psychoteraphy__info-photo--modified {
-  text-align: center;
-}
-
-.psychoteraphy__info-text-holder {
-  margin-left: auto;
+.psychoteraphy__info-text-holder--modified {
   max-width: 649px;
 }
 
-.psychoteraphy__info-text-holder--modified {
-  margin-left: 0;
+.psychoteraphy__info-photo--modified {
+  text-align: center;
 }
 
 .psychoteraphy__info-lines {
@@ -81,6 +76,7 @@
     max-width: 368px;
     margin: 0 auto 15px auto;
     text-align: center;
+    line-height: 30px;
   }
 
   .psychoteraphy__title-decoration {
@@ -141,6 +137,6 @@
 
   .psychoteraphy__info-img {
     max-width: 300px;
-    max-height: 300px;
+    max-height: 380px;
   }
 }
