@@ -22,7 +22,11 @@ function Navigation() {
 
   return (
     <nav className="navigation">
-      <NavigationList ref={listRef} isActiveMenu={isActiveMenu} setIsActiveMenu={setIsActiveMenu} />
+      <NavigationList
+        ref={listRef}
+        isActiveMenu={isActiveMenu}
+        setIsActiveMenu={setIsActiveMenu}
+      />
       <NavigationHamburger setIsActiveMenu={setIsActiveMenu} />
     </nav>
   );

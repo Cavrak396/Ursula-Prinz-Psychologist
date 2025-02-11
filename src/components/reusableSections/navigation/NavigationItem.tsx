@@ -1,12 +1,13 @@
 import { useNavigation } from "../../context/NavigationContext";
 import { NavigationItemProps } from "./types/navigationTypes";
 
-function NavigationItem({ item }: NavigationItemProps) {
+function NavigationItem({ item, setIsActiveMenu }: NavigationItemProps) {
   const { setActiveLink, activeLink } = useNavigation();
 
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     setActiveLink(item.link, item.id.toString());
+    setIsActiveMenu(false);
   };
 
   return (
