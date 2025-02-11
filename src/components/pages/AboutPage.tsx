@@ -1,16 +1,14 @@
-import Banner from "../banner/Banner";
+import Banner from "../reusableSections/banner/Banner";
 import AboutPageBannerImage from "../../assets/images/banner/ursula-prinz.png";
-import AboutPagePsychotherapist from "../about-page-psychotherapist/AboutPagePsychotherapist";
-import Career from "../career/Career";
+import AboutPsychotherapist from "../about-page/about/AboutPsychotherapist";
+import Career from "../about-page/career/Career";
 
 function AboutPage() {
   return (
     <main>
-      <div className="about__page">
-        <Banner bgImage={AboutPageBannerImage} page="About" />
-        <AboutPagePsychotherapist />
-        <Career />
-      </div>
+      <Banner bgImage={AboutPageBannerImage} page="About" />
+      <AboutPsychotherapist />
+      <Career />
     </main>
   );
 }

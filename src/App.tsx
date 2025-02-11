@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/header/Header";
+import Header from "./components/reusableSections/header/Header";
 import HomePage from "./components/pages/HomePage";
 import AboutPage from "./components/pages/AboutPage";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/reusableSections/footer/Footer";
 import ProcessPage from "./components/pages/ProcessPage";
 import ImprintPage from "./components/pages/ImprintPage";
 import { NavigationProvider } from "./components/context/NavigationContext";
-import "./App.css";
 import PrivacyPage from "./components/pages/PrivacyPage";
+import "./App.css";
 
 function App() {
   return (
