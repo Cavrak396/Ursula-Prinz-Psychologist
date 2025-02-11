@@ -6,7 +6,7 @@ export interface LinksTypes {
 export interface NavigationItemProps {
     item: LinksTypes;
     isActive?: number;
-    setIsActive?: (id: number) => void;
+    setIsActiveMenu: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export interface NavigationListProps {

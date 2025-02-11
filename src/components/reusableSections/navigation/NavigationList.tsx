@@ -1,4 +1,4 @@
-import { useState, useEffect, forwardRef, useCallback } from "react";
+import { useState, useEffect, forwardRef } from "react";
 import NavigationItem from "./NavigationItem";
 import { navigationLinks } from "./utils/navigationUtils";
 import { NavigationListProps } from "./types/navigationTypes";
@@ -14,12 +14,6 @@ const NavigationList = forwardRef<HTMLUListElement, NavigationListProps>(
       }
     }, []);
 
-    const handleLinkClick = useCallback(() => {
-      if (isActiveMenu) {
-        setIsActiveMenu(false);
-      }
-    }, [isActiveMenu, setIsActiveMenu]);
-
     return (
       <ul
         ref={ref}
@@ -31,10 +25,7 @@ const NavigationList = forwardRef<HTMLUListElement, NavigationListProps>(
             key={item.id}
             item={item}
             isActive={isActive}
-            setIsActive={(id) => {
-              setIsActive(id);
-              handleLinkClick();
-            }}
+            setIsActiveMenu={setIsActiveMenu}
           />
         ))}
       </ul>
