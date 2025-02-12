@@ -8,14 +8,14 @@ import HomePageBannerImg from "../../assets/images/banner/ursula-prinz.webp";
 
 function HomePage() {
   return (
-    <div className="homepage">
+    <main>
       <Banner bgImage={HomePageBannerImg} page="Home" />
       <Testimonials />
       <PsychoteraphyInfo />
       <Offers />
       <Focus />
       <About />
-    </div>
+    </main>
   );
 }
 
