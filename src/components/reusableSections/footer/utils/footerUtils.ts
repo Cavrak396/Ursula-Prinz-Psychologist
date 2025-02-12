@@ -31,11 +31,13 @@ export const footerContact: FooterContactTypes[] = [
         image: Linkedin,
         contact: 'Ursula Prinz',
         link: 'https://www.linkedin.com/in/ursula-prinz-a60b1440/?originalSubdomain=at',
+        target: true
     },
     {
         id: 4,
         image: Location,
         contact: 'Hernalser Hauptstraße 15/4/13, 1170 Wien',
         link: 'https://www.google.com/maps?q=Hernalser+Hauptstraße+15/4/13,+1170+Wien',
+        target: true
     },
 ];
