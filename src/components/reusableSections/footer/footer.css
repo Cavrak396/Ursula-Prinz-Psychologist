@@ -29,6 +29,12 @@
   text-decoration: none;
 }
 
+.footer__navigation-link:hover,
+.footer__contact-link:hover {
+  opacity: 0.7;
+  transition: 0.5s all ease-in-out;
+}
+
 .footer__professional-tag {
   display: block;
   font-size: 12px;
