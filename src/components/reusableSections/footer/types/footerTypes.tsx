@@ -3,6 +3,7 @@ export interface FooterContactTypes {
   image: string;
   contact: string;
   link: string;
+  target?: boolean;
 }
 
 export interface FooterContactItemType {

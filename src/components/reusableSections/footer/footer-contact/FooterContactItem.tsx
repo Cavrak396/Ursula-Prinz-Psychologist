@@ -6,6 +6,7 @@ function FooterContactItem({ item }: FooterContactItemType) {
       <a
         className="footer__contact-link"
         href={item.link}
+        target={item.target ? "_blank" : undefined}
         rel="noopener noreferrer"
       >
         <img
