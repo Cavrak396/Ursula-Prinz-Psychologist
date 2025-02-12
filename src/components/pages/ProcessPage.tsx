@@ -1,5 +1,5 @@
 import Banner from "../reusableSections/banner/Banner";
-import ProcessBanner from "../../assets/images/banner/process-banner.png";
+import ProcessBanner from "../../assets/images/banner/process-banner.webp";
 import Consultation from "../proces-page/consultation/Consultation";
 import Prices from "../proces-page/prices/Prices";
 import Confidentiality from "../proces-page/confidentiality/Confidentiality";

@@ -1,5 +1,5 @@
-import firstImage from "../../../../assets/images/info/chair.jpg";
-import secondImage from "../../../../assets/images/info/wood.jpg";
+import firstImage from "../../../../assets/images/info/chair.webp";
+import secondImage from "../../../../assets/images/info/wood.webp";
 
 export const psychoteraphyInfo = [
   {

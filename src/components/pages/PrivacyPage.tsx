@@ -1,5 +1,5 @@
 import Banner from "../reusableSections/banner/Banner";
-import HomePageBannerImg from "../../assets/images/banner/ursula-prinz.png";
+import HomePageBannerImg from "../../assets/images/banner/ursula-prinz.webp";
 import Privacy from "../data-policy/privacy/Privacy";
 
 function PrivacyPage() {
