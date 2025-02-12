@@ -20,7 +20,7 @@ export const useNavigation = (): NavigationContextType => {
 
 export const NavigationProvider = ({ children }: NavigationProviderProps) => {
   const [activeLink, setActiveLinkState] = useState<string>(
-    sessionStorage.getItem("activeLink") || ""
+    sessionStorage.getItem("activeLink") || "1"
   );
   const navigate = useNavigate();
 
