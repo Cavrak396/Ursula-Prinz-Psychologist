@@ -1,4 +1,4 @@
-import AboutImage from "../../../assets/images/about/ursula-prinz-about.jpg";
+import AboutImage from "../../../assets/images/about/ursula-prinz-about.webp";
 import LazyImage from "../../reusable/lazyLoadingImage/LazyImage";
 
 function AboutPhoto() {

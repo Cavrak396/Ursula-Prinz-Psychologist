@@ -1,5 +1,5 @@
 import Banner from "../reusableSections/banner/Banner";
-import AboutPageBannerImage from "../../assets/images/banner/ursula-prinz.png";
+import AboutPageBannerImage from "../../assets/images/banner/ursula-prinz.webp";
 import AboutPsychotherapist from "../about-page/about/AboutPsychotherapist";
 import Career from "../about-page/career/Career";
 

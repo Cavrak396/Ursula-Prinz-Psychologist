@@ -10,5 +10,5 @@ export interface ResponsibleDetailsItemType {
 }
 
 export interface ResponsiblePagePropType {
-    page: string;
+    page?: string;
 }

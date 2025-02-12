@@ -4,7 +4,7 @@ import PsychoteraphyInfo from "../home-page/psychotheraphy-info/PsychoteraphyInf
 import Offers from "../home-page/offers/Offers";
 import Focus from "../home-page/focus/Focus";
 import About from "../home-page/about/About";
-import HomePageBannerImg from "../../assets/images/banner/ursula-prinz.png";
+import HomePageBannerImg from "../../assets/images/banner/ursula-prinz.webp";
 
 function HomePage() {
   return (

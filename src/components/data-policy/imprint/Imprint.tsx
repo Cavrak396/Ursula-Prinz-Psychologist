@@ -1,6 +1,6 @@
-import ImprintDetails from "../responsible/ResponsibleDetails";
 import ImprintImageCredits from "./imageCredits/ImprintImageCredits";
 import ImprintMediaDisclosure from "./ImprintMediaDisclosure";
+import ResponsibleDetails from "../responsible/ResponsibleDetails";
 import "./imprint.css";
 
 function Imprint() {
@@ -8,7 +8,7 @@ function Imprint() {
     <section className="imprint">
       <div className="wrap">
         <ImprintMediaDisclosure />
-        <ImprintDetails />
+        <ResponsibleDetails />
         <ImprintImageCredits />
       </div>
     </section>

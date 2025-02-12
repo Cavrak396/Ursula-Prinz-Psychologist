@@ -7,7 +7,9 @@ function NavigationItem({ item, setIsActiveMenu }: NavigationItemProps) {
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     setActiveLink(item.link, item.id.toString());
-    setIsActiveMenu(false);
+    if (setIsActiveMenu) {
+      setIsActiveMenu(false);
+    }
   };
 
   return (
