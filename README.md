@@ -1,50 +1,79 @@
-# React + TypeScript + Vite
+# Ursula Prinz - Psychologist
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
+**Ursula Prinz - Psychologist** is a professional website designed for a psychotherapist to showcase services, provide insights into psychotherapy, and offer information about the therapist. The project was developed with multiple meetings and discussions to ensure the best representation of the client. Special attention was given to achieving optimal performance, meeting the client's expectations, and adhering to technical best practices.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **React** (Frontend framework)
+- **TypeScript** (Ensuring type safety)
+- **CSS** (Styling the application)
+- **Vite** (Development and build tool for fast performance)
+- **React Context API** (State management)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Performances
+- **React Router**: Used for efficient navigation between pages, allowing dynamic content loading without reloading the entire page.
+- **Lazy Loading for Images**: Implemented lazy loading for images, improving the initial load time and performance, especially for pages with heavy media content.
+- **Lighthouse Audits**: The application has been optimized according to the recommendations from Lighthouse for optimal performance and accessibility.
 
-## Expanding the ESLint configuration
+## Getting Started
+To set up the project locally, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed.
 
-- Configure the top-level `parserOptions` property like this:
+### Installation
+1. Clone the repository:
+   git clone https://github.com/your-username/ursula-prinz-psychologist.git
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+2. Navigate to the project directory:
+   cd ursula-prinz-psychologist
+
+3. Install dependencies:
+   npm install
+
+### Running the Project
+To start the development server, run:
+npm run dev
+
+This will launch the application on `localhost` (default: `http://localhost:5173/` with Vite).
+
+## Project Structure
+The project follows a structured architecture:
+
+```
+src/
+ ├── components/         # Reusable UI components
+ │   ├── home-page/         # Components related to the homepage
+ │   ├── about-page/        # Components for the about section
+ │   ├── process-page/      # Components explaining the therapy process
+ │   ├── data-policy/       # Data policy and privacy-related sections
+ │   ├── reusableSections/  # Reusable sections shared across multiple pages
+ │   ├── reusable/          # Smaller, reusable UI components
+ │   ├── context/            # Global state management using React Context API
+ │
+ │
+ ├── pages/              # Page structures and routing
+ │   ├── HomePage.tsx
+ │   ├── AboutPage.tsx
+ │   ├── ProcessPage.tsx
+ │   ├── ImprintPage.tsx
+ │   ├── PrivacyPage.tsx
+ │
+ │
+ ├── main.tsx            # Entry point of the application
+ ├── App.tsx             # Main application wrapper
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Features
+- Informational sections about psychotherapy
+- Overview of therapist’s services
+- Contact informations
+- Responsive design for various devices
+- State management using **React Context API**
+- Well-structured **pages** directory for better organization
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Live preview
+https://sensational-melomakarona-031af8.netlify.app/
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+
