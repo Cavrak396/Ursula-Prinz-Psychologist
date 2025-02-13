@@ -1,0 +1,57 @@
+.about__psychotherapist-content {
+  display: flex;
+  align-items: center;
+}
+
+.about__psychotherapist-image-holder {
+  max-width: 35%;
+  flex: 1 1 35%;
+}
+
+.about__psychotherapist-text {
+  max-width: 65%;
+  flex: 1 1 65%;
+}
+
+.about__psychotherapist-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.about__psychotherapist-text-line {
+  line-height: 30px;
+  font-size: 20px;
+  font-style: italic;
+  color: rgba(108, 122, 137, 0.7);
+  max-width: 700px;
+}
+
+@media screen and (max-width: 975px) {
+  .about__psychotherapist-content {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+  }
+
+  .about__psychotherapist-image-holder,
+  .about__psychotherapist-text {
+    max-width: 100%;
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .about__psychotherapist-image {
+    max-width: 60%;
+    max-height: 60%;
+  }
+
+  .about__psychotherapist-text-line {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__psychotherapist-text-line {
+    font-size: 13px;
+  }
+}

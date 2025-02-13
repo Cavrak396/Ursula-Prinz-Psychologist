@@ -1,0 +1,142 @@
+.psychoteraphy__title {
+  max-width: 700px;
+  line-height: 55px;
+  margin: -62px 0 30px 0;
+}
+
+.psychoteraphy__title--modified {
+  margin-left: -52px;
+}
+
+.psychoteraphy__title-decoration {
+  display: block;
+  padding-left: 120px;
+}
+
+.psychoteraphy__info-row-line {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 100px;
+}
+
+.psychoteraphy__info-row-line--modified {
+  flex-direction: row;
+  padding-bottom: 200px;
+}
+
+.psychoteraphy__info-row--modified {
+  background-color: rgba(245, 245, 220, 0.6);
+}
+
+.psychoteraphy__info-text,
+.psychoteraphy__info-photo {
+  max-width: 50%;
+  flex: 1 1 50%;
+}
+
+.psychoteraphy__info-text-holder--modified {
+  max-width: 649px;
+}
+
+.psychoteraphy__info-photo--modified {
+  text-align: center;
+}
+
+.psychoteraphy__info-lines {
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.psychoteraphy__info-img {
+  max-width: 660px;
+  max-height: 830px;
+  width: 100%;
+  margin-top: -50px;
+}
+
+@media screen and (max-width: 1600px) {
+  .psychoteraphy__title--modified {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .psychoteraphy__info-text-holder--modified {
+    padding-left: 0;
+    padding: 0 15px 0 0;
+  }
+
+  .psychoteraphy__info-text {
+    padding: 0 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .psychoteraphy__title {
+    max-width: 368px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .psychoteraphy__title-decoration {
+    padding-left: 0;
+  }
+
+  .psychoteraphy__info-row-line {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  .psychoteraphy__info-text,
+  .psychoteraphy__info-photo {
+    max-width: 100%;
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+
+  .psychoteraphy__info-text-holder {
+    margin: 0 auto;
+  }
+
+  .psychoteraphy__info-lines {
+    margin: 0 auto 20px auto;
+  }
+
+  .psychoteraphy__info-img {
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .psychoteraphy__info-text-holder--modified {
+    padding: 0;
+  }
+
+  .psychoteraphy__title {
+    max-width: 320px;
+    margin: 0 auto 13px auto;
+  }
+
+  .psychoteraphy__info-text,
+  .psychoteraphy__info-photo {
+    margin-bottom: 0;
+  }
+
+  .psychoteraphy__info-text {
+    padding: 20px 0 0 0;
+  }
+
+  .psychoteraphy__info-photo {
+    padding-bottom: 30px;
+  }
+
+  .psychoteraphy__info-img {
+    max-width: 300px;
+    max-height: 380px;
+  }
+}

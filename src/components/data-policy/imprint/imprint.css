@@ -1,0 +1,30 @@
+.imprint {
+  padding: 30px 0;
+}
+
+.imprint__media-disclosure__title,
+.imprint__image-credits-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.imprint__media-disclosure,
+.imprint__image-credits {
+  margin-bottom: 20px;
+}
+
+.imprint__image-credits-item,
+.imprint__media-disclosure__text {
+  line-height: 22px;
+}
+
+@media (max-width: 768px) {
+  .imprint {
+    padding: 20px 0 10px 0;
+  }
+
+  .imprint__image-credits-item,
+  .imprint__media-disclosure__text {
+    font-size: 13px;
+  }
+}
