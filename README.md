@@ -49,7 +49,7 @@ src/
  │   ├── data-policy/       # Data policy and privacy-related sections
  │   ├── reusableSections/  # Reusable sections shared across multiple pages
  │   ├── reusable/          # Smaller, reusable UI components
- │   ├── context/            # Global state management using React Context API
+ │   ├── context/           # Global state management using React Context API
  │
  │
  ├── pages/              # Page structures and routing
