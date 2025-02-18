@@ -13,13 +13,14 @@ function NavigationItem({ item, setIsActiveMenu }: NavigationItemProps) {
   };
 
   return (
-    <li className="navigation__list-item">
+    <li className="navigation__list-item" role="menuitem">
       <a
         onClick={handleClick}
         href="#"
         className={`navigation__list-link ${
           activeLink === item.id.toString() ? "active-link" : ""
         }`}
+        aria-current={activeLink === item.id.toString() ? "page" : undefined}
       >
         {item.link}
       </a>
