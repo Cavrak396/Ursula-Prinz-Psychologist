@@ -63,11 +63,11 @@
 @media screen and (max-width: 1200px) {
   .psychoteraphy__info-text-holder--modified {
     padding-left: 0;
-    padding: 0 15px 0 0;
+    padding: 0 30px 0 0;
   }
 
   .psychoteraphy__info-text {
-    padding: 0 0 0 15px;
+    padding: 0 0 0 30px;
   }
 }
 
