@@ -1,4 +1,4 @@
-import bubble from "../../../../assets/images/offers/bubble.png";
+import bubble from "../../../../assets/images/reusable/bubble.png";
 import { PricesTypes } from "../types/pricesTypes";
 
 export const pricesBubles: PricesTypes[] = [
