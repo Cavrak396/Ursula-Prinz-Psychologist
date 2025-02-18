@@ -73,7 +73,7 @@ src/
 - Well-structured **pages** directory for better organization
 
 ## Live preview
-https://sensational-melomakarona-031af8.netlify.app/
+https://aesthetic-kulfi-23e418.netlify.app/
 
 
 
