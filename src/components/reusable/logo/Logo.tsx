@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useNavigation } from "../../context/NavigationContext";
-import LogoImage from "../../../assets/images/header/logo.png";
+import LogoImage from "../../../assets/images/reusable/logo.png";
 import { LogoType } from "./logoTypes";
-import "./logo.css"
+import "./logo.css";
 
 function Logo({ className, alt, redirectTo = "/" }: LogoType) {
   const navigate = useNavigate();
