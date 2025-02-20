@@ -13,7 +13,7 @@ function PsychoteraphyRowTexts({
     if (row.id === 1 && isModified) {
       return (
         <>
-          Psychoterapie &
+          Psychotherapie &
           <span className="psychoteraphy__title-decoration">
             Integrative Therapie
           </span>
