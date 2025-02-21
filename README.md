@@ -72,8 +72,6 @@ src/
 - State management using **React Context API**
 - Well-structured **pages** directory for better organization
 
-## Live preview
-https://fancy-axolotl-918ba2.netlify.app/
 
 
 
