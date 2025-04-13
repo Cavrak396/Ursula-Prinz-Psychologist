@@ -10,16 +10,17 @@ function ResponsibleDetails({ page }: ResponsiblePagePropType) {
     <div className="responsible__details">
       {isPrivacyPage && (
         <SmallTitle className="responsible__details-title small-title">
-          Verantwortliche und Kontaktdaten
+          Verantwortliche Stelle & Kontakt
         </SmallTitle>
       )}
       <SmallTitle className="responsible__details-title small-title">
-        Mag. a (FH) Ursula Prinz, MSc
+        Verantwortliche Stelle gemäß § 5 TMG / Art. 4 Nr. 7 DSGVO
       </SmallTitle>
       {isPrivacyPage && (
         <p className="responsible__details-introduction">
-          Verantwortliche für die Datenverarbeitung gemäß
-          Datenschutzgrundverordung (DSGVO) ist:
+          Die nachfolgend genannte Stelle ist verantwortlich für die
+          Verarbeitung personenbezogener Daten im Sinne der
+          Datenschutz-Grundverordnung (DSGVO).
         </p>
       )}
       <ResponsibleDetailsList />

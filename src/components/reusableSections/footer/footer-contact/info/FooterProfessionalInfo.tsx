@@ -2,7 +2,7 @@ function FooterProfessionalInfo() {
   return (
     <div className="footer__professional-info">
       <span className="footer__professional-tag">
-        Mag.a (FH) Ursula Prinz, MSc
+        Psychotherapie und Beratung in Salzburg
       </span>
       <span className="footer__professional-tag">
         Psychotherapeutin in Ausbildung unter Supervision
