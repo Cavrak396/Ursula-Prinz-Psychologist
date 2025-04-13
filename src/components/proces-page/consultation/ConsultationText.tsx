@@ -5,8 +5,10 @@ function ConsultationText() {
     <div className="consultation__text">
       <Title className="consultation__text-title title">Erstgespräch</Title>
       <p className="consultation__text-lines classic-text">
-        Das Erstgespräch dient dazu, Ihre persönliche Situation, Ihre Anliegen
-        und Ziele zu besprechen und sich gegenseitig kennenzulernen.
+        Im Erstgespräch haben Sie die Möglichkeit, in einem geschützten Rahmen
+        über das zu sprechen, was Sie bewegt. Es geht darum, erste Eindrücke zu
+        gewinnen, Fragen zu klären und gemeinsam zu überlegen, ob eine
+        therapeutische Zusammenarbeit passend erscheint.
       </p>
     </div>
   );

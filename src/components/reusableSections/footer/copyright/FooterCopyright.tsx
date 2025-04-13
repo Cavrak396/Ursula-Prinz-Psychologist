@@ -1,7 +1,7 @@
 function FooterCopyRight() {
   return (
     <span className="footer__copyright">
-      © 2025 Mag.a (FH) Ursula Prinz, MSc. All rights reserved.
+      © 2025 Institut für mentale Gesundheit Salzburg. Alle Rechte vorbehalten.
     </span>
   );
 }
