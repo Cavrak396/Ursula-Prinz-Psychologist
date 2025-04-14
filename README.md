@@ -72,6 +72,8 @@ src/
 - State management using **React Context API**
 - Well-structured **pages** directory for better organization
 
+Netlify demo: https://sensational-fudge-4421ed.netlify.app/
+
 
 
 
