@@ -1,7 +1,7 @@
-# Ursula Prinz - Psychologist
+# Psychotherapist-portfolio
 
 ## About the Project
-**Ursula Prinz - Psychologist** is a professional website designed for a psychotherapist to showcase services, provide insights into psychotherapy, and offer information about the therapist. The project was developed with multiple meetings and discussions to ensure the best representation of the client. Special attention was given to achieving optimal performance, meeting the client's expectations, and adhering to technical best practices.
+**Psychotherapist-portfolio** is a professional website designed for a psychotherapist to showcase services, provide insights into psychotherapy, and offer information about the therapist. The project was developed with multiple meetings and discussions to ensure the best representation of the client. Special attention was given to achieving optimal performance, meeting the client's expectations, and adhering to technical best practices.
 
 ## Technologies Used
 - **React** (Frontend framework)
