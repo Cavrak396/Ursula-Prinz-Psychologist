@@ -1,5 +1,5 @@
 import LazyImage from "../../reusable/lazyLoadingImage/LazyImage";
-import psychotherapistImage from "../../../assets/images/about-page/about-psychoterapist/ursula-prinz-about-page-psychoteparist.png";
+import psychotherapistImage from "../../../assets/images/about-page/about-psychoterapist/psychotherapist-about-page-image.png";
 
 function AboutPsychotherapistImage() {
   return (

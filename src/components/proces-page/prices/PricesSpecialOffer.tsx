@@ -1,9 +1,9 @@
 function PricesSpecialOffer() {
   return (
     <p className="prices__special-offer">
-      Für Personen in finanziell schwierigen Situationen biete ich auch ein
-      Kontingent von Plätzen zu einem reduzierten Tarif (Sozialtarif) an. Fragen
-      Sie nach.
+      Wenn Sie sich in einer finanziell herausfordernden Lebenssituation befinden, 
+      sprechen Sie mich gerne an – es besteht die Möglichkeit, einen Termin 
+      zu einem vergünstigten Sozialtarif zu vereinbaren.
     </p>
   );
 }

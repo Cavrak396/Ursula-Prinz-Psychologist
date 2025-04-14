@@ -8,12 +8,13 @@
   display: flex;
   align-items: end;
   justify-content: space-between;
+  padding: 5px 0;
 }
 
 .header__logo {
-  max-width: 159px;
-  max-height: 159px;
-  flex: 1 1 159px;
+  max-width: 125px;
+  max-height: 125px;
+  flex: 1 1 125px;
 }
 
 .navigation__list {

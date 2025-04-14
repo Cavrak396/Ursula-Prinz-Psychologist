@@ -8,25 +8,26 @@ export const careerButtons: ButtonsTypes[] = [
 export const careerTexts = [
     {
         id: 1,
-        title: 'Berufsweg und Praktika',
+        title: 'Beruflicher Werdegang',
         items: [
-            'Wissenschaftliche Mitarbeiterin, Institut für Gesundheitswissenschaften, Ferdinand Porsche Fernfachhochschule',
-            'Psychotherapeutische Ambulanz (PTA) des ÖAGG',
-            '17 Jahre Erfahrung im Marketing- und Kommunikationsbereich',
-            'Die Boje, Ambulatorium für Kinder und Jugendliche in Krisensituationen und bei Traumatisierungen',
-            'Verein GIN, Teilbetreutes Wohnen für Menschen mit psychischen Erkrankungen',
-            'intakt, Therapiezentrum für Menschen mit Essstörungen',
-            'Phönix Zentrum, Kinder-Gruppenpsychotherapie (Psychodrama)'
+            'Sozialarbeiterin in einem multiprofessionellen Team, Schwerpunkt Jugendhilfe',
+            'Psychosoziale Beratung in einer Einrichtung für geflüchtete Menschen',
+            'Psychotherapeutin in Ausbildung unter Supervision in einer ambulanten Einrichtung',
+            'Mitarbeit in einem Projekt zur Suizidprävention im ländlichen Raum',
+            'Erfahrung in der Arbeit mit Frauen in Gewaltschutz-Einrichtungen',
+            'Begleitung von Angehörigen schwer erkrankter Personen (Palliativbereich)',
+            'Lehrauftrag an einer Fachhochschule im Bereich Soziale Arbeit'
         ]
     },
     {
         id: 2,
-        title: 'Ausbildungen',
+        title: 'Aus- und Weiterbildungen',
         items: [
-            'Psychotherapeutisches Fachspezifikum für Integrative Therapie, ÖAGG',
-            'Masterstudium Psychotherapeutisches Propädeutikum, FH Kärnten',
-            'Magisterstudium Kommunikationswirtschaft, FHWien',
-            'Nuad Körperarbeit (passives Yoga)'
+            'Psychotherapeutisches Fachspezifikum – Systemische Familientherapie, ÖAS',
+            'Psychotherapeutisches Propädeutikum, Universität Wien',
+            'Bachelorstudium Soziale Arbeit, FH Joanneum Graz',
+            'Traumapädagogik und traumasensibles Arbeiten mit Jugendlichen',
+            'Fortbildung in Achtsamkeit und Selbstfürsorge in helfenden Berufen'
         ]
     }
 ];
