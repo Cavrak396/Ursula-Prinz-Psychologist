@@ -23,10 +23,10 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 ### Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/ursula-prinz-psychologist.git
+   git clone https://github.com/Cavrak396/Psychotherapist-portfolio.git
 
 2. Navigate to the project directory:
-   cd ursula-prinz-psychologist
+   cd Psychotherapist-portfolio
 
 3. Install dependencies:
    npm install
